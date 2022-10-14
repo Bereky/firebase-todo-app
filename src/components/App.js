@@ -13,11 +13,6 @@ const App = () => {
 
   const todoList = useContext(TodoContext)
 
-  /* const addTodoTask = (e) => {
-    e.preventDefault();
-    todoList.addTodo({name: todo})
-    addTodo(todo)
-  } */
 
   const handleInputChange = (e) => {
     setTodo(e.target.value)
