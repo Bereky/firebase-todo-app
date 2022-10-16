@@ -2,8 +2,8 @@ import { useContext, useEffect, useState } from 'react';
 import { TodoContext } from '../Context/TodoContext';
 import './index.css'
 import Task from './Task';
-import { addTodo, collRef } from '../firebase/firebase';
-import { getDocs, collection, addDoc } from 'firebase/firestore';
+import { collRef } from '../firebase/firebase';
+import { getDocs, addDoc } from 'firebase/firestore';
 import ReactLoading from 'react-loading';
 
 const App = () => {
